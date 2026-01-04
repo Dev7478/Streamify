@@ -8,7 +8,7 @@ export default defineConfig({
     proxy: {
       // Proxy API requests to the backend during development so cookies are same-origin
       '/api': {
-        target: 'http://localhost:5001',
+        target: 'https://streamify-tt74.onrender.com/',
         changeOrigin: true,
         secure: false,
       },
